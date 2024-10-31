@@ -23,6 +23,8 @@ w2 = np.random.rand(h_dim, output_dim)
 b2 = np.random.rand(1, output_dim)
 
 
+
+
 def relu(x):
     return np.maximum(0, x)
 
@@ -62,8 +64,8 @@ def calc_acc():
     return acc
 
 
-ALPHA = 0.1
-NUM_EPOCHS = 1
+ALPHA = 0.001
+NUM_EPOCHS = 5
 
 
 
