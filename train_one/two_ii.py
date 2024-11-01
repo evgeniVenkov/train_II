@@ -102,3 +102,4 @@ print("Точность: " , acc)
 
 plt.plot(loss_arr)
 plt.show()
+
